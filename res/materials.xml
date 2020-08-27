@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<materials>
+	<material name="TurretGray">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="AAAAAA"/>
+		</attributes>
+	</material>
+	<material name="TurretWhite">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="DDDDDD"/>
+		</attributes>
+	</material>
+	<material name="TurretBlack">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="333333"/>
+		</attributes>
+	</material>
+	<material name="TurretEye">
+		<class name="SimpleTextureMaterial"/>
+		<attributes>
+			<string name="texture" value="res/models/turret/turret_eye.png"/>
+		</attributes>
+	</material>
+	<material name="TurretBeam">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="FF0000"/>
+		</attributes>
+	</material>
+	
+	<material name="Pavement1">
+		<class name="SimpleTextureMaterial"/>
+		<attributes>
+			<string name="texture" value="res/models/level1/pavement1.png"/>
+			<boolean name="ignoreLighting" value="false"/>
+		</attributes>
+	</material>
+	<material name="Wall1">
+		<class name="SimpleTextureMaterial"/>
+		<attributes>
+			<string name="texture" value="res/models/level1/wall1.png"/>
+			<boolean name="ignoreLighting" value="false"/>
+		</attributes>
+	</material>
+	<material name="Sky1">
+		<class name="SimpleTextureMaterial"/>
+		<attributes>
+			<string name="texture" value="res/models/level1/sky1.png"/>
+			<boolean name="ignoreLighting" value="true"/>
+		</attributes>
+	</material>
+
+	<material name="LightGray" default="true">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="CCCCCC"/>
+		</attributes>
+	</material>
+	<material name="Black">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="000000"/>
+		</attributes>
+	</material>
+	<material name="White">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="FFFFFF"/>
+		</attributes>
+	</material>
+	<material name="Red">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="FF0000"/>
+		</attributes>
+	</material>
+	<material name="Green">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="00FF00"/>
+		</attributes>
+	</material>
+	<material name="Blue">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="0000FF"/>
+		</attributes>
+	</material>
+	<material name="BlueGreen">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="0077BB"/>
+		</attributes>
+	</material>
+	<material name="Yellow">
+		<class name="SimpleColorMaterial"/>
+		<attributes>
+			<string name="color" value="FFFF00"/>
+		</attributes>
+	</material>
+	<material name="CompanionCube">
+		<class name="SimpleTextureMaterial"/>
+		<attributes>
+			<string name="texture" value="res/models/shapes/cube1.png"/>
+		</attributes>
+	</material>
+	<material name="Earth">
+		<class name="SimpleTextureMaterial"/>
+		<attributes>
+			<string name="texture" value="res/models/shapes/earth.png"/>
+		</attributes>
+	</material>
+</materials>
